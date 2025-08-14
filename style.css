@@ -77,4 +77,15 @@ body{
     .location{
         width: 100vw;
     }
+    .search{
+        width: 93px;
+    }
+}
+@media(max-width: 700px){
+    .finder{
+        width: 90vw;
+    }
+    .find_country{
+        width: 60%;
+    }
 }
