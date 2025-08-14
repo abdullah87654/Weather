@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Weather Forcast</h1>
+    <div class="location"> 
+        <div class="close">
+            <span class="cut" onclick="del()">&times;</span>
+        </div>
+        <h3 class="access">Turn on your location</h3>
+        <div class="choice">
+            <button class="bt cancel">Cancel</button>
+        <button class="bt allow">Allow</button>
+        </div>
+    </div>
+    <div class="finder">
+        <input type="text" class="find_country" required placeholder="Search....">
+        <button class="bt search">Search</button>
+    </div>
+    <div class="main_content">
+        <h1 class="country h">Country</h1>
+        <h2 class="tem h">Temp</h2>
+        <h2 class="feeltem h">Feel like</h2>
+    </div>
+    <script src="sc.js"></script>
+</body> 
+</html>

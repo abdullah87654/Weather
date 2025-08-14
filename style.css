@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-image: url(Weather/Sun1.png);
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+.title{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+.location{
+    color: white;
+    background-color: rgba(14, 14, 14, 0.764);
+    height:  22vh;
+    width: 450px;
+    margin: 10px auto 0 auto;
+}
+.close{
+    display:flex;
+    justify-content:flex-end;
+}
+.cut{
+    margin-right: 6px;
+    cursor: pointer;
+}
+.access{
+    text-align: center;
+    margin-top: 19px;
+}
+.bt{
+    width: 120px;
+    font-size:19px;
+    background-color:red;
+    color:white;
+}
+.choice{
+    display: block;
+    margin-top: 15px;
+    padding-left: 22%;
+}
+.finder{
+    background-color: #fcfcfc;
+    width: 620px;
+    margin: auto;
+    height: 80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+.find_country{
+    width: 400px;
+    height: 45%;
+}
+.search{
+    height: 45%;
+    margin-left: 5px;
+}
+.main_content{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h{
+    margin-top: 5px;
+    color: white;
+}
+@media(max-width: 450px){
+    .location{
+        width: 100vw;
+    }
+}
