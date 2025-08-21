@@ -62,7 +62,7 @@ body{
     height: 45%;
     margin-left: 5px;
 }
-.main_content{
+.gh{
     height: 40vh;
     display: flex;
     justify-content: center;
@@ -72,6 +72,14 @@ body{
 .h{
     margin-top: 5px;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.invalid{
+    display: none;
+}
+.ft{
+    display: none;
 }
 @media(max-width: 450px){
     .location{
