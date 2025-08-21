@@ -62,14 +62,14 @@ body{
     height: 45%;
     margin-left: 5px;
 }
-.gh{
+.design{
     height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.h{
+.advice{
     margin-top: 5px;
     color: white;
     display: flex;
@@ -78,7 +78,7 @@ body{
 .invalid{
     display: none;
 }
-.ft{
+.location_error{
     display: none;
 }
 @media(max-width: 450px){
